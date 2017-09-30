@@ -5,7 +5,8 @@ class Application
 
     time = Time.now
 
-    resp.write "Hello, World"
+    resp.write "Good Morning!"
+    resp.write "Good Afternoon!"
     resp.finish
   end
 
